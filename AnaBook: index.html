@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -45,11 +46,37 @@
             <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
     </header>
-    <secttion class="banner">
-    <h2 class="banner__titulo"> Já sabe por onde começar?</h2>
-    <p class="banner__texto">Encontre em nossa estante o livro que procura!</p>
-    <input type="search" class="banne__pesquisa" placeholder="Qual será sua próxima leitura?">
-</secttion>
+    <section class="banner">
+        <h2 class="banner__titulo"> Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa estante o livro que procura!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="carrosel">
+        <h2 class="carrosel__titulo">Novos lançametos</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src= "img/amor nas estrelinhas.jpeg" alt="livro de romance"></div>
+      <div class="swiper-slide"><img src= "iimg/quarta asa.jpeg" alt="livro de fantasia"></div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+  
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
 </html>
