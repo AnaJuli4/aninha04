@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --laranja-claro: #000000;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #c0c0c0;
 }
 
 
@@ -21,7 +21,7 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #585858;
     font-weight: 600;
 }
 
@@ -101,22 +101,14 @@ h2 {
     color: var(--laranja-claro);
 }
 
-#galeria {
+#albuns {
     background-color: #FAF4F4;
 
 }
 
-.fundo-galeria {
+.fundo-albuns {
     background: url('img/flor-bottom-direita.png') bottom right no-repeat;
     background-size: 180px 180px;
-}
-
-#contato {
-    background-image: url('img/4965007.jpg');
-    background-size: cover;
-    padding: 4rem 0;
-    /* Espaçamento interno para a seção de contato */
-
 }
 
 .formulario {
@@ -131,7 +123,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #4d4d4d;
     border: none;
     font-weight: bold;
 }
@@ -139,4 +131,4 @@ h2 {
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #F1EDEF;
-}
+}}
